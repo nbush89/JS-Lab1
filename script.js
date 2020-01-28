@@ -8,7 +8,7 @@ let lifeEvents = [
   "I lived in Bangkok for 2 years",
   "I have a degree in Psychology"
 ];
-if (detroitGC === true) {
+if (detroitGC) {
   console.log(
     `My name is ${name} and I am a student at Grand Circus in Detroit, Michigan.`
   );
