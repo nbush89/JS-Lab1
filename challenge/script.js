@@ -9,9 +9,9 @@ if (hours <= 40) {
 } else {
   let extra = hours - 40;
   console.log(
-    `Total paycheck is $${wages * 40 +
+    `Total paycheck is $${wage * 40 +
       extra *
-        wages *
+        wage *
         1.5} if working ${hours} hours per week at $${wage} per hour.`
   );
 }
